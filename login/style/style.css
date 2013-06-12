@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#register{background:url(../image/body_bg.png)}
+#register-wrapper{width:420px; margin: 70px auto 0 auto; padding:20px; color:#aaa; position:relative; }
+#register-wrapper td{ text-align:right;padding:0; vertical-align:middle; height:45px;  }
+#register-wrapper input{display:block; width:300px; height:30px; line-height:30px; margin:0; padding:0; float:right; }
+#register-wrapper h1{margin-bottom:30px; font-size:40px; color:#ccc;}
+#register-wrapper a{color:#ccc; text-decoration:none; margin-right:10px;}
+#register-wrapper #reg-notice{position:absolute; left:420px; top:90px; color:#C96;}
+#register-wrapper #reg-notice td{text-align:left;}
+
+#register-wrapper #lgchk{display:inline; width:70px; height:23px; margin-top:4px; margin-left:10px; float:left;}
+#register-wrapper img{float:left; margin-top:5px;}
+#register-wrapper #changea{cursor:pointer; padding-top:12px; float:left; margin-left:20px; font-size:12px;}

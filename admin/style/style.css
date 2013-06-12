@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*通用样式开始*/
+body{font: 14px/30px Arial,sans-serif;}
+a, a:visited{ text-decoration:none}
+.box-shadow{ -moz-box-shadow: -1px 1px 1px rgba(0,0,0,.2); -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2); 
+box-shadow: 0 2px 4px rgba(0, 0, 0, .2);}
+.clear-fix{clear:both;}
+a, a:visited{color:#36c;}
+/*通用样式结束*/
+/*head开始*/
+html{overflow:hidden;}
+#head-wrapper{ width:100%; background:#28353C; }
+#head{width:100%; margin:0 auto; height:40px;}
+#head ul li {display:block; height:40px; float:left; padding:0 8px; position:relative;}
+#head ul li {color:#ccc; font-size:14px; padding:0 15px;}
+#head li {line-height:40px; vertical-align:top;}
+#head li a{color:#ccc;}
+#head #lgout{float:right;}
+/*head结束*/
+/*main left开始*/
+#main-wrapper{width:100%;  background:#fafafa; }
+#left, #right{float:left;}
+#left{ width:15%; background:#f4f4f4;}
+#right{width:85% ; background:#fafafa;}
+#left ul {text-align:center;}
+#left ul li{ width:100%; background:#808080; border-bottom:1px solid #666; height:40px; line-height:40px; }
+#left ul li a{display:block; width:100%; height:40px; line-height:40px; color:#fff; }
+#updoc, #upfile{text-indent:50px; font-size:12px;}
+#mngex{border-bottom:1px solid #666;}
+.leftnav-current{background:#999;}
+/*main left结束*/
+/*main right开始*/
+#title{width:100%; color:#ca0002;border-bottom:1px solid #f1f1f1; text-indent:30px; height:40px; line-height:40px; background:#f1f1f1;
+border-bottom:1px solid #e5e5e5;}
+#title select{ display:block; float:left; margin-top:10px; margin-left:50px;}
+#notice{position:absolute; width:100%; height:40px; background-color:#DFF0D8; color:#468847; border-bottom:1px solid #D6E9C6; line-height:40px; text-indent:20px; display:none; }
+#title li{display:block; height:40px; float:left; text-indent:0;}
+#title li a{display:block; line-height:40px; height:40px; color:#c00; float:left; text-indent:0px; padding:0 10px; border-right:1px solid #e5e5e5;}
+.titlenav-current{background:#fff; border-bottom:1px solid #fff;}
+#content{ padding:10px; width:98%; overflow:auto;}
+#content th{text-align:left; font-size:12px; padding-left:10px; font-weight:normal;}
+#content td{border:1px solid #eee; padding:2px 10px; height:35px; line-height:35px;}
+#addmorefilenum{width:40px;}
+#notice-content{width:99%; height:50px; overflow:hidden; margin:5px auto; border:1px solid #ddd;}
+/*main right结束*/
+
