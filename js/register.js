@@ -184,7 +184,7 @@ window.onload = function(){
 					msg = xmlhttp.responseText;
 					if(msg == '1'){
 						alert('注册成功');
-						//location = '../admin/index.php';
+						location = '../admin/index.php';
 					}else{
 						$('namediv').innerHTML = '<font color=red>' + msg + '</font>';
 					}
