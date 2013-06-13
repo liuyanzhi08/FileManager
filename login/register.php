@@ -43,7 +43,7 @@
             <td><input type="text" id="phone" name="phone" /></td>
           </tr>
           <tr>
-            <td><a href="../index.php">返回首页</a></td>
+            <td><a href="../login/login.php">返回登陆</a></td>
             <td><input id="regbtn" type="submit" value="注册" disabled="disabled"/></td>
           </tr>
         </table>
