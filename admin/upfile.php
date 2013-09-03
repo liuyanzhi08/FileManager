@@ -14,7 +14,7 @@
 	$deadline = $conne->getFields($sql, 0);
 	$conne->close_rst();
 	$deadline = strtotime($deadline);
-	$now = mktime();
+	$now = @mktime();
 	if($now > $deadline){
 		echo('<script type="text/javascript">alert("对不起，提交截止时间已过");
 		location="'.$_SERVER['HTTP_REFERER'].'"</script>');
@@ -53,7 +53,7 @@
 				mkdir($file_path);
 			}
 			//使用“用户名”+”当前时间戳“+随机数 为每个文件生成一个随机文件
-			$rand_name = $lgname.mktime().mt_rand().".".pathinfo($filename[$i], PATHINFO_EXTENSION);
+			$rand_name = $lgname.@mktime().mt_rand().".".pathinfo($filename[$i], PATHINFO_EXTENSION);
 			move_uploaded_file($tmpname[$i], $file_path.$rand_name);
 			//根据文件类型id查找文件类型名字
 			$sql = "select genrename from tb_uptype where id='".$filetype_ids[$i]."';";
